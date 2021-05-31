@@ -1,0 +1,37 @@
+{
+  "name": "mevntodo",
+  "version": "1.0.0",
+  "description": "a MEVN todoApp ",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js --ignore 'client/'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davoudnasrabadi/mevntodo.git"
+  },
+  "keywords": [
+    "todoApp",
+    "node",
+    "express",
+    "vue",
+    "mevn"
+  ],
+  "author": "Davoud Nasrabadi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davoudnasrabadi/mevntodo/issues"
+  },
+  "homepage": "https://github.com/davoudnasrabadi/mevntodo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
